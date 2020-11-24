@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Clock from './Clock';
+import Magic from './Magic';
 import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <Clock/>
+      <Magic/>
   </React.StrictMode>,
   document.getElementById('root')
 );
